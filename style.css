@@ -10,12 +10,26 @@ button.buy{
     font-weight: bold;
     width: 100px;
     height: 50px;
-    border-radius:p 10x;
+    border-radius: 10px;
 }
 button.buy:hover{
     background-color: blue;
     border: 2px solid rgb(12, 9, 9);
 }
+button.btn.btn-dark{
+    font-weight: bold;
+    height: 50px;
+    border-radius: 10px;
+ }
+ button.btn.btn-dark:hover{
+
+    background-color: blue;
+    
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+
+ }
 .card-text{
     font-weight: bold;
 }

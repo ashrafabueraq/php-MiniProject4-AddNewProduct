@@ -1,35 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-main{
-    
-    background-color: rgb(252, 244, 235);
-    
-}
-.two{
-    width: 100%;
-    display: flex;
-    
-    
-}
-.card-body{
-    
-    box-shadow: 0 0 20px 7px rgb(0, 0, 0,0.1);
-}
 .card{
     margin: 20px 10px ;
-}
-.maa{
-    background-color: rgb(69, 15, 248);
-
-
-}
-.link-primary{
-    display: flex;
-    align-items: flex-end;
+    box-shadow: 0 0 20px 7px rgb(0, 0, 0,0.1);
+    border: 2px solid black;
+    /* border-radius: 35px; */
 }
 button.buy{
     background-color: #212529;
@@ -37,11 +10,33 @@ button.buy{
     font-weight: bold;
     width: 100px;
     height: 50px;
-    border-radius: 10px;
+    border-radius:p 10x;
+}
+button.buy:hover{
+    background-color: blue;
+    border: 2px solid rgb(12, 9, 9);
+}
+.card-text{
+    font-weight: bold;
+}
+.card-img-top{
+    border-bottom: 2px solid black;
 }
 
-button.btn.btn-dark{
-   font-weight: bold;
-   height: 50px;
-   border-radius: 10px;
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    .container{
+        width: 720px;
+    }
+    .col-md-4{
+        width: 490px;
+    }
+    .card{
+        width:680px !important ;
+        margin-top: 60px;
+    }
 }
